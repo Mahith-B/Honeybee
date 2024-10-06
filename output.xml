@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.10.0 on win32)" generated="2024-10-07T00:55:08.620046" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\Mahith\Desktop\Honeybee\Honeybee\Suites\Tests.robot">
+<test id="s1-t1" name="Log The testcase" line="17">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-07T00:55:08.906169" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<arg>http://www.google.com</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-07T00:55:08.906169" elapsed="2.910858"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-10-07T00:55:11.818114" elapsed="0.057576"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-10-07T00:55:11.875690" level="INFO">Opening url 'https://practicetestautomation.com/practice-test-login/'</msg>
+<arg>${APP_URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-10-07T00:55:11.875690" elapsed="1.970431"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-07T00:55:13.847148" level="INFO">Typing text 'student' into text field 'id=username'.</msg>
+<arg>${UN}</arg>
+<arg>student</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-07T00:55:13.847148" elapsed="0.166899"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-07T00:55:14.015144" level="INFO">Typing text 'Password123' into text field 'id=password'.</msg>
+<arg>${PWD}</arg>
+<arg>Password123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-07T00:55:14.014047" elapsed="0.159556"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-10-07T00:55:14.174167" level="INFO">Clicking element 'id=submit'.</msg>
+<arg>${LOGIN_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-07T00:55:14.174167" elapsed="0.783500"/>
+</kw>
+<tag>test</tag>
+<status status="PASS" start="2024-10-07T00:55:08.903699" elapsed="6.053968"/>
+</test>
+<status status="PASS" start="2024-10-07T00:55:08.633193" elapsed="6.326553"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">test</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
