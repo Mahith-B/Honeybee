@@ -3,12 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.png
 # C extensions
 *.so
 pabot_results
-.html
+*.html
 .PNG
-.xml
+*.xml
+.png
 
 # Distribution / packaging
 .Python

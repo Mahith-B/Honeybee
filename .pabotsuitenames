@@ -1,7 +1,10 @@
-datasources:e8873400d8ecd09562b8809e8ca3ca5c93dfdec0
+datasources:c3ec07938da6579cb37b6888aa3a1174f25f53c2
 commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
 suitesfrom:no-suites-from-option
-file:4f25747ddd23bb42b9888b3273694f490472ba56
---test Tests.TC01
---test Tests.TC02
---test Tests.TC03
+file:6b255e28d31f5a1952823ebccc812f56e4e27944
+--test Suites.ChromeTest.TC01
+--test Suites.ChromeTest.TC02
+--test Suites.ChromeTest.TC03
+--test Suites.EdgeTest.TC01
+--test Suites.EdgeTest.TC02
+--test Suites.EdgeTest.TC03
