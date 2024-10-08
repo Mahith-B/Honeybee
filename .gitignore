@@ -5,9 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
-
+pabot_results
 .html
 .PNG
+.pabotsuitenames
+.xml
 
 # Distribution / packaging
 .Python
