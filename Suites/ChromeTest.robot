@@ -10,7 +10,7 @@ ${APP_URL}       http://practicetestautomation.com/practice-test-login/
 ${UN}        id=username 
 ${PWD}        id=password
 ${LOGIN_BTN}        id=submit
-${HUB_URL}    http://4.240.73.162:4444/wd/hub    #http://localhost:4444/grid/console 
+${HUB_URL}    http://4.240.73.214:4444/wd/hub    #http://localhost:4444/grid/console 
 ${CHROMEDRIVER_PATH}    C://Users//Mahith//Desktop//Honeybee//chromedriver.exe
 
 
@@ -19,7 +19,7 @@ Headless Chrome - Create Webdriver
     ${browser_options} =     Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
     Call Method    ${browser_options}   add_argument    disable-gpu
     ${options}=     Call Method     ${browser_options}    to_capabilities      
-    Create Webdriver    Remote   command_executor=http://4.240.73.162:4444/wd/hub    desired_capabilities=${options}
+    Create Webdriver    Remote   command_executor=http://4.240.73.214:4444/wd/hub    desired_capabilities=${options}
     Go to     http://Google.com
     Maximize Browser Window
     Capture Page Screenshot
